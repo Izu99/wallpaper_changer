@@ -6,7 +6,7 @@ from io import BytesIO
 
 # Unsplash API credentials
 # Replace with your Unsplash API key
-UNSPLASH_API_KEY = 'KMtulrpVGFYd3wJncgOyz9n9CulbLkeqbR8Jv3Q8zOQ'
+UNSPLASH_API_KEY = 'UNSPLASH_API_KEY'
 
 # Paths for wallpapers
 CURRENT_WALLPAPER = os.path.join(os.getcwd(), 'current_wallpaper.jpg')
