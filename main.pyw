@@ -6,12 +6,13 @@ from io import BytesIO
 
 # Unsplash API credentials
 # Replace with your Unsplash API key
-UNSPLASH_API_KEY = 'UNSPLASH_API_KEY'
+UNSPLASH_API_KEY = 'unsplash APi Key'
 
 # Paths for wallpapers
-CURRENT_WALLPAPER = os.path.join(os.getcwd(), 'current_wallpaper.jpg')
-PREVIOUS_WALLPAPER = os.path.join(os.getcwd(), 'previous_wallpaper.jpg')
-NEW_WALLPAPER = os.path.join(os.getcwd(), 'new_wallpaper.jpg')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+CURRENT_WALLPAPER = os.path.join(script_dir, 'current_wallpaper.jpg')
+PREVIOUS_WALLPAPER = os.path.join(script_dir, 'previous_wallpaper.jpg')
+NEW_WALLPAPER = os.path.join(script_dir, 'new_wallpaper.jpg')
 
 
 def fetch_random_nature_image():
